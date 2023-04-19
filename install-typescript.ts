@@ -1,4 +1,3 @@
-let message: string = 'Hello, TypeScript';
+let massage : string = 'Hello ts-node-dev!!!!!!'
 
-console.log({message});
-
+console.log({massage});
