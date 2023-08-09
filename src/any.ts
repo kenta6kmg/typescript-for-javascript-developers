@@ -1,8 +1,9 @@
-import axios from "axios";
+import axios from 'axios';
 
-export { };
+export {};
 
-let url: string = 'https://udemy-utils.herokuapp.com/api/v1/articles?token=token123';
+let url: string =
+  'https://udemy-utils.herokuapp.com/api/v1/articles?token=token123';
 
 axios.get(url).then(function (response) {
   interface Article {
@@ -10,7 +11,7 @@ axios.get(url).then(function (response) {
     title: string;
     description: string;
   }
-  let data: Article[] ;
+  let data: Article[];
   data = response.data;
   console.log(data);
 });

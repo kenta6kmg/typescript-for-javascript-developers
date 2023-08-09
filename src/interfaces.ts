@@ -1,4 +1,4 @@
-export { };
+export {};
 type ObjectType = {
   name: string;
   age: number;
@@ -11,5 +11,5 @@ interface ObjectInterface {
 
 let object: ObjectInterface = {
   name: 'Wood',
-  age: 30
+  age: 30,
 };

@@ -1,8 +1,8 @@
 export { };
 
-function returnNotthing(): void {
+function returnNothing(): void {
   console.log("I don't return anything!");
 }
 
-console.log(returnNotthing());
+console.log(returnNothing());
 
