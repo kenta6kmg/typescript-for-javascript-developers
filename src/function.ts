@@ -1,4 +1,4 @@
-export { };
+export {};
 
 function bmi(height: number, weight: number): number {
   return weight / (height * height);
