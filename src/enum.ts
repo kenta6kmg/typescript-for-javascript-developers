@@ -9,14 +9,14 @@ enum Months {
   Jun,
   July,
   August,
-  Septenber,
+  September,
   October,
   November,
   December,
 }
 
-console.log(Months.August);
-console.log(Months.January);
+// console.log(Months.August);
+// console.log(Months.January);
 
 enum COLORS {
   RED = '#FF0000',
@@ -28,6 +28,8 @@ enum COLORS {
 
 let green = COLORS.GREEN;
 console.log({green});
+console.log(green);
+console.log(COLORS);
 
 enum COLORS {
   YELLOW = 'FFFF00',
