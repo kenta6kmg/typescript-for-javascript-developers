@@ -7,7 +7,7 @@ type SomeTypes = string | number | DebugType;
 // ある型だけ除外したい。
 // Excludeを使用する。<全体のユニオン型、除外したい型>
 type FunctionType = Exclude<SomeTypes, string | number>;
-type NunFunctionType = Exclude<SomeTypes, DebugType>;
+type NonFunctionType = Exclude<SomeTypes, DebugType>;
 // 関数型を全て除外
 type TypeExcludingFunction = Exclude<SomeTypes, Function>;
 
